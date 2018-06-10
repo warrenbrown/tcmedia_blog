@@ -6,3 +6,8 @@ require 'faker'
     description: Faker::Lorem.sentence(3)
   }])
 end
+
+Category.create(name: 'Gaming')
+Category.create(name: 'Coding')
+Category.create(name: 'Fishing')
+Category.create(name: 'Lifestyles')
